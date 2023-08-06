@@ -1,9 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Footer from './Footer'
 
 function Login() {
   return (
-    <div  className='form-container  login' >
+    <div className='container' >
+    <div  className='form  login' >
       <h1>Sign In</h1>
       <form>
         
@@ -13,6 +15,9 @@ function Login() {
         <button className='btn' type='submit'>Sign In</button>
         <p className='p' >Dont have an account ? : <Link to ="/register">sign up</Link></p>
       </form>
+      
+    </div>
+    <Footer/>
     </div>
   )
 }

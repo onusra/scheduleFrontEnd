@@ -1,12 +1,15 @@
 *{
+   
+    padding: 0;
     margin: 0;
-    box-sizing: border-box;
-    
 }
 
 .page-container{
-    height: 100vh;
-    background-color: rgb(203, 67, 67);
+   
+   height: 100%;
+   /*background-color: rgb(226, 215, 198);*/
+   background-color: aqua;
+    
 }
 .input{
     display: block;
@@ -31,10 +34,14 @@
     background-color: black;
 }
 
-
 #root{
-
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    height: 100%;
+    
 }
+
 
 .p a{
     color: black;
@@ -46,26 +53,22 @@ a{
    /* text-transform: uppercase;*/
 }
 
-.form-container{
+.form{
     margin: 30px;
-   
     border: 1px solid black;
     border-radius: 5px;
     background-color: aliceblue;
     text-align: center;
-    padding: 10px;
-    height: 80%;
-    padding-top: 50px;
+    padding: 100px 0;
 }
 .nav-container{
     margin-top: 0;
     text-align: left;
-     height: 100%;
     background-color: rgb(226, 215, 198);
 }
 
 .login{
-    padding-top: 140px;
+    padding: 100px 0;
 }
 
 
@@ -73,10 +76,59 @@ a{
     list-style: none;
     display: inline-block;
     border-radius: 4px;
-    padding: 20px;
+    padding: 10px;
     background-color: black;
     border: 2px solid black;
-    margin: 10px;
+    margin: 15px;
    
       
+}
+.sec{
+    padding: 10px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 10px;
+    margin: 10px;
+}
+.sec article{
+    padding: 10px;
+    border: 2px solid black;
+    background-color: aliceblue;
+    border-radius: 3px;
+}
+
+.intro{
+    margin: 10px;
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+.home-container{
+    
+   
+}
+
+.intro p{
+    margin-top: 20px;
+    
+}
+
+.footer{
+    padding: 10px;
+    margin: 30px;
+    display: inline-block;
+    color: white;
+    background-color: black;
+    margin-bottom: 5px;
+}
+.footer section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 40px;
+   margin-bottom: 5px;
+}
+
+.container{
+    height: 100%;
 }
